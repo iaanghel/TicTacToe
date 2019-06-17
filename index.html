@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>X si 0</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="startGame();">
+	
+
+	<table>
+		<tr>
+			<td class="cell" id="1" onClick="nextMove(this);"></td>
+			<td class="cell" id="2" onClick="nextMove(this);"></td>
+			<td class="cell" id="3" onClick="nextMove(this);"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="4" onClick="nextMove(this);"></td>
+			<td class="cell" id="5" onClick="nextMove(this);"></td>
+			<td class="cell" id="6" onClick="nextMove(this);"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="7" onClick="nextMove(this);"></td>
+			<td class="cell" id="8" onClick="nextMove(this);"></td>
+			<td class="cell" id="9" onClick="nextMove(this);"></td>
+		</tr>
+	</table>
+	
+	<button onClick="startGame();">Replay</button>
+	<br/><br/>
+	<div id ="mesage">meseaj</div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
